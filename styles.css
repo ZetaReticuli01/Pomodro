@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    border: 1px solid red;
+    height: 65vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .timeContainer > h1 {
+    border: 2px solid aqua;
+    margin-top: 20px;
+    margin-inline: 15px;
+    outline: 10px solid aqua;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container > p {
+    border: 3px solid green;
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px dotted #333;
+    margin-inline: 12px;
+  }
+  
+  .container > .footer {
+    margin: 10px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border-bottom: 1px dotted black;
+  }
+  
+  .container .divSession {
+    border: 1px solid orange;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .container .divSession h5 {
+    color: aqua;
+    font-size: large;
+  }
+  
+  .container .divBreak h5 {
+    color: aqua;
+    font-size: large;
+  }
+  
+  .container .divSession button,
+  .container .divBreak button {
+    padding: 7px;
+    color: #fff;
+    font-size: large;
+    border-radius: 20px;
+    background-color: #333;
+  }
+  
+  .container .divBreak {
+    border: 1px solid orange;
+    padding: 10px;
+    margin-inline: 10px;
+  }
+  
+  .container > .lastButtons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .container .pause,
+  .container .reset {
+    padding: 7px;
+    color: #fff;
+    font-size: large;
+    border-radius: 20px;
+    background-color: #333;
+  }
+  
